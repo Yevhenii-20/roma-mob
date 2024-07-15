@@ -1,13 +1,5 @@
 /* MAIN STYLES */
 
-@font-face {
-    font-family: "Archivo Expanded";
-    src: url("../fonts/34e23dd51b4e6f71165cb62eff021e01.eot");
-    src: url("../fonts/34e23dd51b4e6f71165cb62eff021e01.woff2")format("woff2"),
-    url("../fonts/34e23dd51b4e6f71165cb62eff021e01.woff")format("woff"),
-    url("../fonts/34e23dd51b4e6f71165cb62eff021e01.ttf")format("truetype"),
-    url("../fonts/34e23dd51b4e6f71165cb62eff021e01.svg#Archivo Expanded")format("svg");
-}
 
 * {
     box-sizing: border-box;
@@ -1109,12 +1101,21 @@ input, select {
     .slick-next {
         right: 40%;
         transform: rotate(180deg);
-      }
-    
-      .slick-prev {
+    }
+
+    .slick-prev {
         left: 40%;
         transform: rotate(180deg);
-      }
+    }
+
+    .main-title {
+        line-height: 30px;
+    }
+
+    .main-title, .main-subtitle {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width:500px) {
